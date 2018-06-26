@@ -1,59 +1,100 @@
+
+
+<html>
+
 <head>
-<style type="text/css">
-* { box-sizing: border-box; }
-.glitch{position:relative;animation:glitch 2s steps(100) infinite}@keyframes glitch{0%{text-shadow:1px 0 0 red, -1px 0 0 blue}1%{text-shadow:1px 0 0 red, -1px 0 0 blue}2%{text-shadow:1px 0 0 red, -1px 0 0 blue}3%{text-shadow:1px 0 0 red, -1px 0 0 blue}4%{text-shadow:1px 0 0 red, -1px 0 0 blue}5%{text-shadow:-1px 0 0 red, 1px 0 0 blue}6%{text-shadow:-1px 0 0 red, 1px 0 0 blue}7%{text-shadow:-1px 0 0 red, 1px 0 0 blue}8%{text-shadow:-1px 0 0 red, 1px 0 0 blue}9%{text-shadow:-1px 0 0 red, 1px 0 0 blue}10%{text-shadow:-1px 0 0 red, 1px 0 0 blue}11%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}12%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}13%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}14%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}15%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}16%{text-shadow:-1px 0 0 red, 1px 0 0 lime}17%{text-shadow:-1px 0 0 red, 1px 0 0 lime}18%{text-shadow:-1px 0 0 red, 1px 0 0 lime}19%{text-shadow:-1px 0 0 red, 1px 0 0 lime}20%{text-shadow:-1px 0 0 red, 1px 0 0 lime}21%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}22%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}23%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}24%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}25%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}26%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}27%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}28%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}29%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}30%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}31%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}32%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}33%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}34%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}35%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}36%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}37%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}38%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}39%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}40%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}41%{text-shadow:50px 0 0 blue, -50px 0 0 lime}42%{text-shadow:0 0 0 blue, 0 0 0 lime}43%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}44%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}45%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}46%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}47%{text-shadow:-1px 0 0 red, 1px 0 0 lime}48%{text-shadow:-1px 0 0 red, 1px 0 0 lime}49%{text-shadow:-1px 0 0 red, 1px 0 0 lime}50%{text-shadow:-1px 0 0 red, 1px 0 0 lime}51%{text-shadow:1px 0 0 red, -1px 0 0 blue}52%{text-shadow:1px 0 0 red, -1px 0 0 blue}53%{text-shadow:1px 0 0 red, -1px 0 0 blue}54%{text-shadow:1px 0 0 red, -1px 0 0 blue}55%{text-shadow:1px 0 0 red, -1px 0 0 blue}56%{text-shadow:-1px 0 0 red, 1px 0 0 blue}57%{text-shadow:-1px 0 0 red, 1px 0 0 blue}58%{text-shadow:-1px 0 0 red, 1px 0 0 blue}59%{text-shadow:-1px 0 0 red, 1px 0 0 blue}60%{text-shadow:-1px 0 0 red, 1px 0 0 blue}61%{text-shadow:30px 0 0 red, -30px 0 0 lime}62%{text-shadow:0 0 0 red, 0 0 0 lime}63%{text-shadow:0.5px 0 0 red, -0.5px 0 0 blue}64%{text-shadow:0.5px 0 0 red, -0.5px 0 0 blue}65%{text-shadow:0.5px 0 0 red, -0.5px 0 0 blue}66%{text-shadow:0.5px 0 0 red, -0.5px 0 0 blue}67%{text-shadow:-1px 0 0 red, 1px 0 0 blue}68%{text-shadow:-1px 0 0 red, 1px 0 0 blue}69%{text-shadow:-1px 0 0 red, 1px 0 0 blue}70%{text-shadow:-1px 0 0 red, 1px 0 0 blue}71%{text-shadow:70px 0 0 red, -70px 0 0 blue}72%{text-shadow:0 0 0 red, 0 0 0 blue}73%{text-shadow:1px 0 0 red, -1px 0 0 blue}74%{text-shadow:1px 0 0 red, -1px 0 0 blue}75%{text-shadow:1px 0 0 red, -1px 0 0 blue}76%{text-shadow:1px 0 0 red, -1px 0 0 blue}77%{text-shadow:-1px 0 0 red, 1px 0 0 blue}78%{text-shadow:-1px 0 0 red, 1px 0 0 blue}79%{text-shadow:-1px 0 0 red, 1px 0 0 blue}80%{text-shadow:-1px 0 0 red, 1px 0 0 blue}81%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}82%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}83%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}84%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}85%{text-shadow:0.5px 0 0 red, -0.5px 0 0 lime}86%{text-shadow:-1px 0 0 red, 1px 0 0 lime}87%{text-shadow:-1px 0 0 red, 1px 0 0 lime}88%{text-shadow:-1px 0 0 red, 1px 0 0 lime}89%{text-shadow:-1px 0 0 red, 1px 0 0 lime}90%{text-shadow:-1px 0 0 red, 1px 0 0 lime}91%{text-shadow:60px 0 0 lime, -60px 0 0 blue}92%{text-shadow:0 0 0 lime, 0 0 0 blue}92%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}93%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}94%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}95%{text-shadow:0.7px 0 0 blue, -0.7px 0 0 lime}96%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}97%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}98%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}99%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}100%{text-shadow:-1px 0 0 blue, 1px 0 0 lime}}.go-home{text-align:center}
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-#vidtop-content {
-    top: 0;
-    color: #fff;
-}
-.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
-}
-</style>
-<title>Luong Nguyen</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Luong's Resume</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/background.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
 </head>
 
 <body>
-<div class="video-background">
-    <div class="video-foreground">
-      <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/GIDoQsQyS0s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>></iframe>
-    </div>
-</div>
-<script> document.getElementsByTagName('body')[0].classList.add('glitch'); </script>
-<h1 style="text-align:center">"LUONG NGUYEN"</h1>
-	<p class="alignCenter"><a href="https://steamcommunity.com/id/iamLuong/">Steam Link</font></a></p><br><br>
-		<font face="Arial" size="2" color=#FF0000>
-			
-			
-</body>
-</html>
-			
 
+    <div id="page-wrap">
+    
+        <img src="images/a.jpg" alt="Photo of Me" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Nguyen Phan Thanh Luong </h1>
+        
+            <p>
+                Cell: <span class="tel">+(84)-962-282-212</span><br />
+                Email: <a class="email" href="mailto:luong.npt96@gmail.com">luong.npt96@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>Hanoi University of Business and Technology</h2>
+                <p><strong>Major:</strong> Information Technology<br />
+                   
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2>Wong's Store (Founder - Seller)</h2>
+                <ul>
+                    <li>Selling games on Steam platform</li>
+                    <li>Selling item Dota2 and CS:GO</li>
+                    
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>Board games, Picnic, Movie</dd>
+            
+            <dd class="clear"></dd>
+           <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
